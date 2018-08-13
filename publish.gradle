@@ -82,7 +82,7 @@ bintray {
     user = bintrayUser
     key = bintrayKey
     publications = ['mavenJava']
-    publish true
+    publish false
     pkg {
         userOrg = BINTRAY_USER_ORG
         repo = BINTRAY_REPO
